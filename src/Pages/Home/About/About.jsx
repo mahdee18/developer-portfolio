@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className=" mx-auto px-[50px] flex flex-col lg:flex-row text-white gap-4 p-10 ">
+        <div className=" mx-auto lg:px-[50px] sm:px-4 flex flex-col lg:flex-row text-white gap-4 p-10 ">
             {/* Left Column: Image */}
             <div className="flex-1">
                 <img

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className=" mx-auto px-[50px] flex flex-col lg:flex-row text-white gap-4 p-10 ">
+        <div className=" mx-auto lg:px-[50px] sm:px-4 flex lg:flex-row text-white gap-4 p-10 ">
 
             <div className="flex-1">
                 <h3 className='text-xl'>@2024 Mir Hussain Murtaza</h3>
