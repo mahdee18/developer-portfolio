@@ -4,7 +4,7 @@ const ParallaxBadgeSection = () => {
     return (
         <ParallaxProvider>
             <div className="relative h-screen w-full flex justify-center items-center overflow-hidden">
-
+                {/* Centered Container with Tailwind Background */}
                 <div className="max-w-4xl mx-auto flex justify-center items-center relative h-[400px] w-full bg-stripe">
                     {/* Top-Left to Bottom-Right Badge */}
                     <Parallax
