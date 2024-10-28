@@ -4,11 +4,11 @@ const About = () => {
     return (
         <div className=" mx-auto lg:px-[50px] sm:px-4 flex flex-col lg:flex-row text-white gap-4 p-10 ">
             {/* Left Column: Image */}
-            <div className="flex-1">
+            <div className="flex-1 sm:mb-10 sm:w-full">
                 <img
                     src="https://i.ibb.co.com/cgS6BpB/mypic-bb074bc5.jpg" // Replace with your image URL
                     alt="About Us"
-                    className="w-auto h-[800px] rounded-lg shadow-lg" // Styles for image
+                    className="w-auto h-[800px] rounded-lg shadow-lg sm:w-full" // Styles for image
                 />
             </div>
 
