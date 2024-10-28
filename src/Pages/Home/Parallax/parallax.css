@@ -1,0 +1,6 @@
+.bg-stripe {
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="stripe-pattern" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="%231a1f35" stroke-width="1" opacity="0.1"/></pattern></defs><path d="M 0 400 Q 400 350 800 400" fill="none" stroke="url(%23stripe-pattern)" stroke-width="400"/></svg>');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
