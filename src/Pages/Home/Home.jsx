@@ -8,7 +8,7 @@ import Footer from './Footer/Footer';
 const Home = () => {
 
   return (
-    <div className="px-20 bg-site bg-no-repeat bg-cover overflow-hidden h-[350vh]">
+    <div className="lg:px-20 sm:px-4 bg-site bg-no-repeat bg-cover overflow-hidden h-[350vh]">
       <div className="wrapper border border-l-gray-50/10 border-r-gray-50/10">
         <Navbar />
         <Banner />
