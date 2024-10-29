@@ -13,14 +13,17 @@ const Home = () => {
       <div className="wrapper border-l border-r border-gray-50/10">
         <Navbar />
         <AnimatedCursor
-          color="#fff"
           innerSize={8}
           outerSize={35}
           innerScale={1}
-          outerScale={1.7}
+          outerScale={2}
           outerAlpha={0}
+          hasBlendMode={true}
+          innerStyle={{
+            backgroundColor: 'var(--cursor-color)'
+          }}
           outerStyle={{
-            mixBlendMode: 'exclusion'
+            border: '3px solid var(--cursor-color)'
           }}
         />
         <Banner />
