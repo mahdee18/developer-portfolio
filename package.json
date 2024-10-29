@@ -23,7 +23,7 @@
     "react-router-dom": "^6.27.0",
     "react-scroll-parallax": "^3.4.5",
     "react-typed": "^2.0.12",
-    "sort-by": "^1.2.0",
+    "sort-by": "^0.0.2",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },

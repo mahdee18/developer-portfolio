@@ -41,7 +41,7 @@ const Navbar = () => {
 
             {/* Mobile Nav Menu */}
             <div
-                className={`fixed bottom-0 left-0 w-full bg-[#231338] py-4 flex flex-col items-center space-y-4 transition-transform duration-500 ${
+                className={`fixed bottom-0 left-0 w-full bg-[#231338] py-4 flex flex-col items-center space-y-4 transition-transform duration-500 z-30 ${
                     isOpen ? "translate-y-0" : "translate-y-full"
                 }`}
             >
