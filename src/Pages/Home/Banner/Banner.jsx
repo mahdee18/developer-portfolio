@@ -3,7 +3,7 @@ import { ReactTyped } from 'react-typed';
 
 const Banner = () => {
   return (
-    <div className="max-w-[1240px] mx-auto px-6 lg:px-10 flex flex-col justify-center items-center lg:h-screen border-l border-r border-gray-50/10 sm:py-8 py-4">
+    <div className="max-w-[1240px] mx-auto px-6 lg:px-10 flex flex-col justify-center items-center lg:h-screen sm:py-8 py-4 bg-site bg-no-repeat bg-cover overflow-hidden h-auto">
       <h3 className=""></h3>
 
       <h1 className="text-4xl md:text-7xl lg:text-8xl font-serif text-[#ede8e8] mb-3 sm:mb-4 leading-tight">

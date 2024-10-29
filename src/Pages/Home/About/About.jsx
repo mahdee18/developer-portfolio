@@ -6,9 +6,9 @@ const About = () => {
             {/* Left Column: Image */}
             <div className="flex-1 sm:mb-10 sm:w-full">
                 <img
-                    src="https://i.ibb.co.com/cgS6BpB/mypic-bb074bc5.jpg" // Replace with your image URL
+                    src="https://i.ibb.co.com/cgS6BpB/mypic-bb074bc5.jpg"
                     alt="About Us"
-                    className="w-auto h-full lg:h-[800px] rounded-lg shadow-lg sm:w-full" // Styles for image
+                    className="w-auto h-full lg:h-[800px] rounded-lg shadow-lg sm:w-full"
                 />
             </div>
 
